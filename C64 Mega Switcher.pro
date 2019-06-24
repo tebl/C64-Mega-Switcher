@@ -1,4 +1,4 @@
-update=24/06/2019 14:22:32
+update=24/06/2019 21:58:18
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,4 @@ LibName31=contrib
 LibName32=valves
 LibName33=atari_joystick
 LibName34=sega_joypad
+LibName35=74hct4053
