@@ -1,4 +1,4 @@
-update=24/06/2019 21:58:18
+update=26/06/2019 00:52:27
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=valves
 LibName33=atari_joystick
 LibName34=sega_joypad
 LibName35=74hct4053
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=export
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
