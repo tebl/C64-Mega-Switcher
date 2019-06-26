@@ -125,13 +125,13 @@ F 3 "" H 8175 1350 50  0001 C CNN
 $EndComp
 Text GLabel 4325 2550 2    60   Input ~ 0
 RIGHT
-Text GLabel 7600 2125 0    60   Output ~ 0
+Text GLabel 7325 2125 0    60   Output ~ 0
 LEFT
-Text GLabel 7600 2325 0    60   Output ~ 0
+Text GLabel 7325 2325 0    60   Output ~ 0
 DOWN
-Text GLabel 7600 2525 0    60   Output ~ 0
+Text GLabel 7325 2525 0    60   Output ~ 0
 UP
-Text GLabel 7600 2425 0    60   Output ~ 0
+Text GLabel 7325 2425 0    60   Output ~ 0
 FIRE
 NoConn ~ 1475 2750
 NoConn ~ 1475 2850
@@ -139,7 +139,7 @@ NoConn ~ 1475 4675
 NoConn ~ 1475 4775
 Text GLabel 4325 2850 2    60   Input ~ 0
 LEFT
-Text GLabel 7600 1925 0    60   Output ~ 0
+Text GLabel 7325 1925 0    60   Output ~ 0
 RIGHT
 Text GLabel 4325 3150 2    60   Input ~ 0
 DOWN
@@ -706,4 +706,69 @@ F 3 "" H 1550 4975 50  0001 C CNN
 	1    1550 4975
 	0    -1   -1   0   
 $EndComp
+$Comp
+L D_Small D3
+U 1 1 5D13AE84
+P 7500 1925
+F 0 "D3" H 7550 1900 50  0000 L CNN
+F 1 "1N4148" H 7350 1845 50  0001 L CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" V 7500 1925 50  0001 C CNN
+F 3 "" V 7500 1925 50  0001 C CNN
+	1    7500 1925
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 1925 7325 1925
+$Comp
+L D_Small D4
+U 1 1 5D13B3D4
+P 7500 2125
+F 0 "D4" H 7550 2100 50  0000 L CNN
+F 1 "1N4148" H 7350 2045 50  0001 L CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" V 7500 2125 50  0001 C CNN
+F 3 "" V 7500 2125 50  0001 C CNN
+	1    7500 2125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 2125 7325 2125
+$Comp
+L D_Small D5
+U 1 1 5D13B416
+P 7500 2325
+F 0 "D5" H 7550 2300 50  0000 L CNN
+F 1 "1N4148" H 7350 2245 50  0001 L CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" V 7500 2325 50  0001 C CNN
+F 3 "" V 7500 2325 50  0001 C CNN
+	1    7500 2325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 2325 7325 2325
+$Comp
+L D_Small D6
+U 1 1 5D13B464
+P 7500 2425
+F 0 "D6" H 7550 2400 50  0000 L CNN
+F 1 "1N4148" H 7350 2345 50  0001 L CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" V 7500 2425 50  0001 C CNN
+F 3 "" V 7500 2425 50  0001 C CNN
+	1    7500 2425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 2425 7325 2425
+$Comp
+L D_Small D7
+U 1 1 5D13B4A8
+P 7500 2525
+F 0 "D7" H 7550 2500 50  0000 L CNN
+F 1 "1N4148" H 7350 2445 50  0001 L CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" V 7500 2525 50  0001 C CNN
+F 3 "" V 7500 2525 50  0001 C CNN
+	1    7500 2525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 2525 7325 2525
 $EndSCHEMATC
