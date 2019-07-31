@@ -186,23 +186,23 @@ NoConn ~ 8175 4975
 $Comp
 L SW_Push SW1
 U 1 1 5D1420E9
-P 7775 5500
-F 0 "SW1" H 7825 5600 50  0000 L CNN
-F 1 "P1_SEL" H 7775 5440 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 7775 5700 50  0001 C CNN
-F 3 "" H 7775 5700 50  0001 C CNN
-	1    7775 5500
+P 8025 5500
+F 0 "SW1" H 8075 5600 50  0000 L CNN
+F 1 "P1_SEL" H 8025 5440 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 8025 5700 50  0001 C CNN
+F 3 "" H 8025 5700 50  0001 C CNN
+	1    8025 5500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L SW_Push SW2
 U 1 1 5D1424D3
-P 8025 5500
-F 0 "SW2" H 8075 5600 50  0000 L CNN
-F 1 "P2_SEL" H 8025 5440 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 8025 5700 50  0001 C CNN
-F 3 "" H 8025 5700 50  0001 C CNN
-	1    8025 5500
+P 7775 5500
+F 0 "SW2" H 7825 5600 50  0000 L CNN
+F 1 "P2_SEL" H 7775 5440 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 7775 5700 50  0001 C CNN
+F 3 "" H 7775 5700 50  0001 C CNN
+	1    7775 5500
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 9175 4975
@@ -281,9 +281,9 @@ Connection ~ 8675 2525
 Wire Wire Line
 	8750 1250 8600 1250
 Wire Wire Line
-	8600 1250 8600 2425
+	8600 2425 8600 1250
 Wire Wire Line
-	8600 2425 7600 2425
+	7600 2425 8600 2425
 Wire Wire Line
 	8450 1250 8450 1825
 Wire Wire Line
@@ -305,8 +305,6 @@ Wire Wire Line
 	9250 1250 9325 1250
 Wire Wire Line
 	8375 1250 8450 1250
-Wire Wire Line
-	9500 1175 9500 2225
 Wire Wire Line
 	9500 2225 9900 2225
 Wire Wire Line
@@ -432,7 +430,7 @@ Wire Wire Line
 Wire Wire Line
 	9175 5175 9250 5175
 Wire Wire Line
-	9250 5175 9250 5775
+	9250 5775 9250 5175
 Wire Wire Line
 	7775 5700 7775 5775
 Wire Wire Line
@@ -646,12 +644,12 @@ $EndComp
 $Comp
 L VCC #PWR010
 U 1 1 5D11DA0F
-P 9500 1175
-F 0 "#PWR010" H 9500 1025 50  0001 C CNN
-F 1 "VCC" H 9500 1325 50  0000 C CNN
-F 2 "" H 9500 1175 50  0001 C CNN
-F 3 "" H 9500 1175 50  0001 C CNN
-	1    9500 1175
+P 9500 1350
+F 0 "#PWR010" H 9500 1200 50  0001 C CNN
+F 1 "VCC" H 9500 1500 50  0000 C CNN
+F 2 "" H 9500 1350 50  0001 C CNN
+F 3 "" H 9500 1350 50  0001 C CNN
+	1    9500 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -771,4 +769,12 @@ F 3 "" V 7500 2525 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7400 2525 7325 2525
+Text Notes 7350 7500 0    60   ~ 0
+C64 Mega Switcher
+Text Notes 7000 7025 0    60   ~ 0
+8bitdo has started producing new wired Sega Mega Drive/Genesis controllers, while you\ncan't connect these directly to a C64 without damaging it you can however do so with a\nsuitable adapter. This board adds this adapter, but also allows you to switch the active\nport at the push of a button. This way you won't have to swap joystick ports just because\nthe game suddenly wants the joystick in port 1 instead of port 2.
+Text Notes 7100 1000 0    60   ~ 0
+WARNING! Do not jumper for more than one function at a time, if jumpering \nJP1 for D-PAD up you should not jumper B/C for UP - chip damage may\noccur if you do so. Never move jumpers when powered up!
+Wire Wire Line
+	9500 1350 9500 2225
 $EndSCHEMATC
