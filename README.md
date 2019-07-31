@@ -1,3 +1,4 @@
+
 # C64 Mega Switcher
 
 With 8bitdo starting recent productions of new quality controllers for the Sega Mega Drive/Genesis, I thought it was time to look into adapting the usage of these with the Commodore 64. Normally a controller of this type would be HARMFUL to your C64 without the use of a suitable adapter, a great one was made by SukkoPera a while back and I've taken a lot of inspiration as well as lifting a couple of the kicad footprints from his project at https://github.com/SukkoPera/OpenC64MegaDrivePadAdapter. What this module adds into the mix is a way of swapping the port your joystick is connected to at the press of a button, what this means is that you don't have to fiddle with the cables every time you try a game that for some reason insists on having the joystick in the other port!
@@ -9,6 +10,15 @@ Start by studying the PCB, both sides and perform dry fits to see that you have 
 
 The female DB9 connectors used for port 1/2 comes with a metal shroud, this comes off when you remove the two screws that would be in the way anyway. Given that the C64 ports are made out of plastic, the metal shroud is not needed though you could possibly keep it by gluing it to the connector if you really wanted to and then filling the screw holes with solder to keep them together afterwards. Do a testfit of the connectors with the C64 before soldering them to the board, this is recommended in order to avoid adding any stress to the C64 board.
 
+![Components](https://github.com/tebl/C64-Mega-Switcher/raw/master/gallery/2019-07-30%2017.35.43.jpg)
+
+## Using the switcher
+Firmly insert the switcher into the C64, making sure that it is inserted the whole way and fits firmly without feeling loose. When playing a game, if you encounter a game that expects a joystick inserted into the other port you can use the switches to change the active port.
+
+**WARNING!**
+ - Do **NOT** move any of the jumpers while the computer is switched on, doing so may cause damage to it. Always power off first!
+ - Do **NOT** jumper so that more than one button/direction does the same thing, for example: if you jumper the B button for UP, then you have to REMOVE the jumper enabling D-PAD UP!
+
 # Schematic
 The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/C64_Mega_Switcher/raw/master/export/C64%20Mega%20Switcher.pdf) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
 
@@ -17,7 +27,7 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 
 | Reference    | Item                                  | Count |
 | ------------ | ------------------------------------- | ----- |
-| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/Commodore_64_Quad_Kernal_Switcher.html?inviteid=88707))          |     1 |
+| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/Commodore_64_Mega_Switcher.html?inviteid=88707))          |     1 |
 | C1-C3        | 100nF capacitor                       |     3 |
 | D1,D2        | 5mm LED                               |     2 |
 | D3-D7        | 1N4148 diode                          |     5 |
