@@ -27,4 +27,6 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 | U3           | NE555 DIP-8                           |     1 |
 | SW1,SW2      | SPST momentary push button            |     2 |
 | JP1          | 2-pin straight header                 |     1 |
+| J1,J2        | Female DB9 right-angle connector      |     2 |
+| J3           | Male DB9 right-angle connector        |     1 |
 | J4,J5        | 2x2-pin straight header               |     2 |
