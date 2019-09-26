@@ -143,7 +143,7 @@ F 1 "10k" V 8025 4475 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7955 4475 50  0001 C CNN
 F 3 "" H 8025 4475 50  0001 C CNN
 	1    8025 4475
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R1
@@ -154,7 +154,7 @@ F 1 "10k" V 7775 4475 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7705 4475 50  0001 C CNN
 F 3 "" H 7775 4475 50  0001 C CNN
 	1    7775 4475
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 8175 4975
 $Comp
@@ -195,7 +195,7 @@ F 1 "220" V 9500 5350 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9430 5350 50  0001 C CNN
 F 3 "" H 9500 5350 50  0001 C CNN
 	1    9500 5350
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L LED_Small D1
@@ -228,7 +228,7 @@ F 1 "220" V 9500 4200 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9430 4200 50  0001 C CNN
 F 3 "" H 9500 4200 50  0001 C CNN
 	1    9500 4200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L C_Small C1
@@ -286,10 +286,10 @@ F 3 "" H 4425 5075 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR1
+L VCC #PWR01
 U 1 1 5D11C338
 P 1000 6950
-F 0 "#PWR1" H 1000 6800 50  0001 C CNN
+F 0 "#PWR01" H 1000 6800 50  0001 C CNN
 F 1 "VCC" H 1000 7100 50  0000 C CNN
 F 2 "" H 1000 6950 50  0001 C CNN
 F 3 "" H 1000 6950 50  0001 C CNN
@@ -297,10 +297,10 @@ F 3 "" H 1000 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR02
 U 1 1 5D11C374
 P 1550 7450
-F 0 "#PWR2" H 1550 7200 50  0001 C CNN
+F 0 "#PWR02" H 1550 7200 50  0001 C CNN
 F 1 "GND" H 1550 7300 50  0000 C CNN
 F 2 "" H 1550 7450 50  0001 C CNN
 F 3 "" H 1550 7450 50  0001 C CNN
@@ -308,10 +308,10 @@ F 3 "" H 1550 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR8
+L GND #PWR03
 U 1 1 5D11CABA
 P 3450 5450
-F 0 "#PWR8" H 3450 5200 50  0001 C CNN
+F 0 "#PWR03" H 3450 5200 50  0001 C CNN
 F 1 "GND" H 3450 5300 50  0000 C CNN
 F 2 "" H 3450 5450 50  0001 C CNN
 F 3 "" H 3450 5450 50  0001 C CNN
@@ -319,10 +319,10 @@ F 3 "" H 3450 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR10
+L GND #PWR04
 U 1 1 5D11CB08
 P 5200 5650
-F 0 "#PWR10" H 5200 5400 50  0001 C CNN
+F 0 "#PWR04" H 5200 5400 50  0001 C CNN
 F 1 "GND" H 5200 5500 50  0000 C CNN
 F 2 "" H 5200 5650 50  0001 C CNN
 F 3 "" H 5200 5650 50  0001 C CNN
@@ -330,10 +330,10 @@ F 3 "" H 5200 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR7
+L GND #PWR05
 U 1 1 5D11D0E1
 P 3450 3525
-F 0 "#PWR7" H 3450 3275 50  0001 C CNN
+F 0 "#PWR05" H 3450 3275 50  0001 C CNN
 F 1 "GND" H 3450 3375 50  0000 C CNN
 F 2 "" H 3450 3525 50  0001 C CNN
 F 3 "" H 3450 3525 50  0001 C CNN
@@ -341,10 +341,10 @@ F 3 "" H 3450 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR9
+L GND #PWR06
 U 1 1 5D11D128
 P 5200 3725
-F 0 "#PWR9" H 5200 3475 50  0001 C CNN
+F 0 "#PWR06" H 5200 3475 50  0001 C CNN
 F 1 "GND" H 5200 3575 50  0000 C CNN
 F 2 "" H 5200 3725 50  0001 C CNN
 F 3 "" H 5200 3725 50  0001 C CNN
@@ -352,10 +352,10 @@ F 3 "" H 5200 3725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR15
+L GND #PWR07
 U 1 1 5D11D237
 P 9500 5850
-F 0 "#PWR15" H 9500 5600 50  0001 C CNN
+F 0 "#PWR07" H 9500 5600 50  0001 C CNN
 F 1 "GND" H 9500 5700 50  0000 C CNN
 F 2 "" H 9500 5850 50  0001 C CNN
 F 3 "" H 9500 5850 50  0001 C CNN
@@ -363,10 +363,10 @@ F 3 "" H 9500 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR13
+L VCC #PWR08
 U 1 1 5D11D810
 P 7775 3900
-F 0 "#PWR13" H 7775 3750 50  0001 C CNN
+F 0 "#PWR08" H 7775 3750 50  0001 C CNN
 F 1 "VCC" H 7775 4050 50  0000 C CNN
 F 2 "" H 7775 3900 50  0001 C CNN
 F 3 "" H 7775 3900 50  0001 C CNN
@@ -374,10 +374,10 @@ F 3 "" H 7775 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR14
+L VCC #PWR09
 U 1 1 5D11DA0F
 P 9500 1600
-F 0 "#PWR14" H 9500 1450 50  0001 C CNN
+F 0 "#PWR09" H 9500 1450 50  0001 C CNN
 F 1 "VCC" H 9500 1750 50  0000 C CNN
 F 2 "" H 9500 1600 50  0001 C CNN
 F 3 "" H 9500 1600 50  0001 C CNN
@@ -385,10 +385,10 @@ F 3 "" H 9500 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR3
+L GND #PWR010
 U 1 1 5D11F688
 P 2000 3050
-F 0 "#PWR3" H 2000 2800 50  0001 C CNN
+F 0 "#PWR010" H 2000 2800 50  0001 C CNN
 F 1 "GND" H 2000 2900 50  0000 C CNN
 F 2 "" H 2000 3050 50  0001 C CNN
 F 3 "" H 2000 3050 50  0001 C CNN
@@ -396,10 +396,10 @@ F 3 "" H 2000 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR4
+L VCC #PWR011
 U 1 1 5D11F85F
 P 2000 3250
-F 0 "#PWR4" H 2000 3100 50  0001 C CNN
+F 0 "#PWR011" H 2000 3100 50  0001 C CNN
 F 1 "VCC" H 2000 3400 50  0000 C CNN
 F 2 "" H 2000 3250 50  0001 C CNN
 F 3 "" H 2000 3250 50  0001 C CNN
@@ -407,10 +407,10 @@ F 3 "" H 2000 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR6
+L VCC #PWR012
 U 1 1 5D11FDDD
 P 2000 5175
-F 0 "#PWR6" H 2000 5025 50  0001 C CNN
+F 0 "#PWR012" H 2000 5025 50  0001 C CNN
 F 1 "VCC" H 2000 5325 50  0000 C CNN
 F 2 "" H 2000 5175 50  0001 C CNN
 F 3 "" H 2000 5175 50  0001 C CNN
@@ -418,10 +418,10 @@ F 3 "" H 2000 5175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR5
+L GND #PWR013
 U 1 1 5D120002
 P 2000 4975
-F 0 "#PWR5" H 2000 4725 50  0001 C CNN
+F 0 "#PWR013" H 2000 4725 50  0001 C CNN
 F 1 "GND" H 2000 4825 50  0000 C CNN
 F 2 "" H 2000 4975 50  0001 C CNN
 F 3 "" H 2000 4975 50  0001 C CNN
@@ -487,8 +487,8 @@ Text Notes 7350 7500 0    60   ~ 0
 C64 Mega Switcher
 Text Notes 7000 7025 0    60   ~ 0
 8bitdo has started producing new wired Sega Mega Drive/Genesis controllers, while you\ncan't connect these directly to a C64 without damaging it you can however do so with a\nsuitable adapter. This board adds this adapter, but also allows you to switch the active\nport at the push of a button. This way you won't have to swap joystick ports just because\nthe game suddenly wants the joystick in port 1 instead of port 2.
-Text Notes 7600 1125 0    60   ~ 0
-WARNING! Do not jumper for more than one function at a time, if jumpering \nJP1 for D-PAD up you should not jumper B/C for UP - chip damage may\noccur if you do so. Never move jumpers when powered up!
+Text Notes 7500 1150 0    60   ~ 0
+WARNING! Do not jumper for more than one function at a time, if jumpering \nJP1 for D-PAD up - then you should not jumper B or C for UP, in short \nno overlap vertically or horizontally. Never move jumpers when powered up!
 $Comp
 L D_Small D8
 U 1 1 5D72CEDB
@@ -835,7 +835,7 @@ U 1 1 5D7345E5
 P 8175 1500
 F 0 "J4" H 8225 1700 50  0000 C CNN
 F 1 "C_SEL" H 8225 1300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x03_Pitch2.54mm" H 8175 1500 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 8175 1500 50  0001 C CNN
 F 3 "" H 8175 1500 50  0001 C CNN
 	1    8175 1500
 	-1   0    0    1   
@@ -846,7 +846,7 @@ U 1 1 5D734943
 P 9050 1500
 F 0 "J5" H 9100 1700 50  0000 C CNN
 F 1 "B_SEL" H 9100 1300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x03_Pitch2.54mm" H 9050 1500 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 9050 1500 50  0001 C CNN
 F 3 "" H 9050 1500 50  0001 C CNN
 	1    9050 1500
 	-1   0    0    1   
@@ -885,7 +885,7 @@ U 1 1 5D735D55
 P 7000 1400
 F 0 "Q1" H 7200 1475 50  0000 L CNN
 F 1 "BC547" H 7200 1400 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 7200 1325 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 7200 1325 50  0001 L CIN
 F 3 "" H 7000 1400 50  0001 L CNN
 	1    7000 1400
 	-1   0    0    -1  
@@ -901,7 +901,7 @@ F 1 "100k" V 7125 1150 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7055 1150 50  0001 C CNN
 F 3 "" H 7125 1150 50  0001 C CNN
 	1    7125 1150
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7350 1400 7350 1150
@@ -925,10 +925,10 @@ Wire Wire Line
 	6900 1100 6900 1200
 Connection ~ 6900 1150
 $Comp
-L VCC #PWR11
+L VCC #PWR014
 U 1 1 5D736FCC
 P 6900 725
-F 0 "#PWR11" H 6900 575 50  0001 C CNN
+F 0 "#PWR014" H 6900 575 50  0001 C CNN
 F 1 "VCC" H 6900 875 50  0000 C CNN
 F 2 "" H 6900 725 50  0001 C CNN
 F 3 "" H 6900 725 50  0001 C CNN
@@ -940,10 +940,10 @@ Wire Wire Line
 Text GLabel 6750 1150 0    60   Output ~ 0
 ALT_FIRE
 $Comp
-L GND #PWR12
+L GND #PWR015
 U 1 1 5D737AC0
 P 6900 1675
-F 0 "#PWR12" H 6900 1425 50  0001 C CNN
+F 0 "#PWR015" H 6900 1425 50  0001 C CNN
 F 1 "GND" H 6900 1525 50  0000 C CNN
 F 2 "" H 6900 1675 50  0001 C CNN
 F 3 "" H 6900 1675 50  0001 C CNN
@@ -952,4 +952,6 @@ F 3 "" H 6900 1675 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6900 1600 6900 1675
+Text Notes 10550 7650 0    60   ~ 0
+B
 $EndSCHEMATC
