@@ -18,7 +18,7 @@ I recommend putting something underneath the board, so that it isn't flexing too
 ![Components](https://github.com/tebl/C64-Mega-Switcher/raw/master/gallery/2019-07-30%2017.35.43.jpg)
 
 ## Using the switcher
-Firmly insert the switcher into the C64, making sure that it is inserted the whole way and fits firmly without feeling loose. When playing a game, if you encounter a game that expects a joystick inserted into the other port, just press the button for the port you want to use instead.
+Firmly insert the switcher into the C64, making sure that it is inserted the whole way and fits firmly without feeling loose. When playing a game, if you encounter a game that expects a joystick inserted into the other port, just press the button for the port you want to use instead. The module supports alternate fire, in other words the second button that was found on the ill-fated Commodore 64 Games System console - this works, but I've so far only tested it with Robocop 2 on cartridge.
 
 **WARNING!**
  - Do **NOT** move any of the jumpers while the computer is switched on, doing so may cause damage to it. Always power off first!
@@ -30,7 +30,7 @@ Firmly insert the switcher into the C64, making sure that it is inserted the who
 The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/C64_Mega_Switcher/raw/master/export/C64%20Mega%20Switcher.pdf) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
 
 # BOM
-Most parts should be easy to get a hold of from your favourite local electronic component shop, but given that I don't have access to such shops where I live so everything was based on whatever I could get cheapest from ebay/AliExpress (free shipping, plan on usually waiting 3-4 weeks though).
+Most parts should be easy to get a hold of from your favourite local electronic component shop, but given that I don't have access to such shops where I live so everything was based on whatever I could get cheapest from ebay/AliExpress (free shipping, plan on usually waiting 3-4 weeks though). Parts listed in parenthesis are optional and is only used for the secondary fire button, so you can safely skip these unless you want the whole thing built in one go (BC547 can be substituted with a 2N2222 connected the wrong way around).
 
 | Reference    | Item                                  | Count |
 | ------------ | ------------------------------------- | ----- |
@@ -40,6 +40,9 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 | D3-D12       | 1N4148 diode                          |    10 |
 | R1,R2        | 10k ohm resistor                      |     2 | 
 | R3,R4        | 220 ohm resistor                      |     2 |
+| R5,R7        | 2k2 ohm resistor                      |   (2) |
+| R6           | 100k ohm resistor                     |   (1) |
+| Q1           | BC547 TO-92 transistor                |   (1) |
 | U1           | 74HCT4053 or CD4053 DIP-16            |     2 |
 | U3           | NE555 DIP-8                           |     1 |
 | SW1,SW2      | SPST momentary push button            |     2 |
