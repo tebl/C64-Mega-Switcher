@@ -27,7 +27,7 @@ Firmly insert the switcher into the C64, making sure that it is inserted the who
  
 
 # Schematic
-The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/C64_Mega_Switcher/raw/master/export/C64%20Mega%20Switcher.pdf) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
+The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/C64-Mega-Switcher/blob/master/export/C64%20Mega%20Switcher.pdf) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
 
 # BOM
 Most parts should be easy to get a hold of from your favourite local electronic component shop, but given that I don't have access to such shops where I live so everything was based on whatever I could get cheapest from ebay/AliExpress (free shipping, plan on usually waiting 3-4 weeks though). Parts listed in parenthesis are optional and is only used for the secondary fire button, so you can safely skip these unless you want the whole thing built in one go (BC547 can be substituted with a 2N2222 connected the wrong way around).
